@@ -5,7 +5,7 @@ print: True if there is a path , if no has print False*/
 void FloydWarshall_Algo_B(int mat[][10], int n, int i, int j);
 /Checks if there is a route between i to j/
 void B();
-/*An auxiliary function that checks which route is the shortest in between i to j
+//*An auxiliary function that checks which route is the shortest in between i to j
 and prints it, if there is no path print -1*/
 void FloydWarshall_Algo(int mat[][10], int n, int i, int j);
 /* Checking out what is the shortest route in between i to j*/
