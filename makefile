@@ -3,7 +3,7 @@
 all: connections
 
 connections: main.o my_mat.o
-	gcc -shared -o connections main.o my_mat.o
+	gcc -Wall -g -o connections main.o my_mat.o
 
 my_mat.o: my_mat.c my_mat.h
 	gcc -Wall -g -c my_mat.c
