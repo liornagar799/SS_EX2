@@ -16,7 +16,4 @@ my_mat.a: main.o my_mat.o
 
 
 clean:
-	rm -f *.o connections
-
-
- 
+	rm -f *.o *.a connections
